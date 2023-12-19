@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Svg/BG.svg);
+    background-color: #1c46ba;
+    background-size: cover;
+}
+
+.login-box {
+    width:420px;
+    color: white;
+    text-align: center;
+}
+
+.shop-icon {
+    padding-bottom: 60px;
+}
+
+.user-input {
+    padding: 0% 15% 0% 15%;
+    color: white;
+}
+
+.input-icon {
+    position: absolute;
+    color: white;
+    padding-left: 15px;
+    padding-top: 11px;
+    font-size: 20px;
+}
+
+.input-box {
+    padding-top: 15px;
+}
+
+.input-field {
+    width:100%;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: #1c46ba;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 0.7px;;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 90%;
+  }
+
+.password-alert {
+    color: #1c46ba;
+    background-color: white;
+    text-align: left;
+    padding: 5px;
+    margin-top: 1px;
+    width: 100%;
+    display: block;
+    visibility: hidden;
+}
+
+.login-button {
+    width:100%;
+    margin-top: 10%;
+    padding: 10px;
+    border-color: white;
+    border-radius: 7px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bold;
+    color: #1c46ba;
+    box-shadow: 5px 5px 5px 0px #243870;
+}
+
+.forgot-password {
+    color: white;
+    text-align: right;
+    margin-top: 5%;
+}
+
+a {
+    color: white;
+}

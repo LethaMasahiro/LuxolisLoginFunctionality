@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/lock.css' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="login-box">
+        <div class="shop-icon">
+            <img src="Svg/ShopIcon.svg" alt="shop icon at the top of the screen"/>
+        </div>
+
+        <div class="user-input">
+
+            <div class="input-icons" id="userinput">
+                <div class="input-box">
+                    <img src="Svg/user.svg" class="input-icon">
+                    <input class="input-field" type="text" id="email" placeholder="USERNAME">
+                </div>
+                <div class="input-box">
+                    <img src="Svg/lock.svg" class="input-icon">
+                    <input class="input-field" type="password" id="password" placeholder="PASSWORD" required>
+                </div>
+            </div>
+
+            <div class="password-alert" id="pwalert">
+                <p>Wrong combination</p>
+            </div>
+
+            <div class="login-functionality" id="loginfunctionality">
+                <button type="submit" class="login-button" id="submitbutton" onclick="handleLogin()">LOGIN</button>
+            </div>
+
+            <div class="forgot-password">
+                <a href="Html/forgotpassword.html">Forgot password?</a>
+            </div>
+
+        </div>
+        
+
+        
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
